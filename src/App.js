@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+
+import ContactForm from './Components/ContactForm';
+import FormDangKyTaiKhoan from './Components/FormDangKyTaiKhoan';
+import TaoFormKhaiBaoYTe from './Components/TaoFormKhaiBaoYTe';
+import TaoFormSoanThaoEmail from './Components/TaoFormSoanThaoEmail';
+import UngDungQuanLySach from './Components/UngDungQuanLySach';
+import ValidateFormDangKy from './Components/ValidateFormDangKy';
+import ValidateFormLogin from './Components/ValidateFormLogin';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ContactForm /> */}
+      {/* <FormDangKyTaiKhoan /> */}
+      {/* <ValidateFormDangKy /> */}
+      {/* <ValidateFormLogin /> */}
+      {/* <UngDungQuanLySach /> */}
+      {/* <TaoFormSoanThaoEmail /> */}
+      <TaoFormKhaiBaoYTe />
     </div>
   );
 }
