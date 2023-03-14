@@ -12,7 +12,7 @@ export default function ContactForm() {
             phone: ''
         },
         validationSchema: Yup.object({
-            name: Yup.string().required('Required'),
+            name: Yup.string().required('yeu cau nhap ten'),
             email: Yup.string().required('Required').matches(/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/, 'please enter an email address'),
             phone: Yup.string().required('Required')
         }),

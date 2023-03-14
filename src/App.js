@@ -10,13 +10,13 @@ import ValidateFormLogin from './Components/ValidateFormLogin';
 function App() {
   return (
     <div className="App">
-      {/* <ContactForm /> */}
+      <ContactForm />
       {/* <FormDangKyTaiKhoan /> */}
       {/* <ValidateFormDangKy /> */}
       {/* <ValidateFormLogin /> */}
       {/* <UngDungQuanLySach /> */}
       {/* <TaoFormSoanThaoEmail /> */}
-      <TaoFormKhaiBaoYTe />
+      {/* <TaoFormKhaiBaoYTe /> */}
     </div>
   );
 }
